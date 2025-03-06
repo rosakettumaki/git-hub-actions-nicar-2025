@@ -9,11 +9,9 @@ on:
         default: 'ia'
   schedule:
   - cron: "0 0 * * *"
-
+  
 permissions:
   contents: write
-
-#London time 
 
 jobs:
   scrape: 
